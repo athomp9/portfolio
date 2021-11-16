@@ -1,0 +1,45 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../../stylesheets/fonts/Montserrat-ExtraBold.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(images/thompson_arthur_onlytimemakesithuman2\ copy.jpg); */
+}
+
+.onlytime {
+    font-family: montserrat;
+    font-size: 88px;
+    position: relative;
+    display: block; 
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+.column {
+    float: right;
+    width: 40vw;
+    padding: 30px 40px 10px 10px;
+    
+  }
+
+.image1 {
+    float: left;
+    width: 50vw;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-spacing: 30px 10px 10px 40px;
+    margin: 30px 10px 10px 40px;
+}
+
+.desc {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
