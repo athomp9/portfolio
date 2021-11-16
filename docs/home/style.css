@@ -1,0 +1,58 @@
+@font-face {
+    font-family: arimo-bold;
+    src: url(../stylesheets/fonts/Arimo-Bold.ttf);
+}
+
+@font-face {
+    font-family: arimo-reg;
+    src: url(../stylesheets/fonts/Arimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: arimo-italic;
+    src: url(../stylesheets/fonts/Arimo-Italic.ttf);
+}
+
+
+header {
+    display: flex;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: lightsalmon;
+    width: 100vw;
+    height: 60vh;
+    position: static;
+    margin: 0;
+    padding: 0;
+
+}
+.a1 {
+    font-family: arimo-bold;
+    font-size: 20vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.a2 {
+    font-family: arimo-italic;
+    font-size: 20vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.a3 {
+    font-family: arimo-reg;
+    font-size: 20vw;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

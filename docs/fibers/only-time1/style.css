@@ -1,45 +1,44 @@
 @font-face {
-    font-family: montserrat;
-    src: url(../../stylesheets/fonts/Montserrat-ExtraBold.ttf);
+    font-family: arimo-bolditalic;
+    src: url(../../stylesheets/fonts/Arimo-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: shippori;
+    src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
 }
 
 
 body {
     margin: 0;
     padding: 0;
-    /* background-image: url(images/thompson_arthur_onlytimemakesithuman2\ copy.jpg); */
+    background-color: lightgray;
 }
-
-.onlytime {
-    font-family: montserrat;
-    font-size: 88px;
+.title {
+    font-family: arimo-bolditalic;
+    font-size: 15vw;
+    line-height: 90%;
     position: relative;
     display: block; 
-    text-align: center;
-    color: white;
-    background-color: black;
-    margin: 0;
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    padding: 0;
+    margin: 10px 100px 10px 10px;
 }
 
-.column {
-    float: right;
-    width: 40vw;
-    padding: 30px 40px 10px 10px;
-    
-  }
-
 .image1 {
-    float: left;
-    width: 50vw;
-    border: black;
-    border-style: solid;
-    border-width: 1px;
-    border-spacing: 30px 10px 10px 40px;
-    margin: 30px 10px 10px 40px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100vw;
 }
 
 .desc {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-family: shippori;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    display: block;
+    padding: 3rem;
+
 }
