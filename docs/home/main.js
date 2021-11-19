@@ -1,8 +1,4 @@
-$('nav li').hover(
-    function() {
-        $('ul',this).stop().slideDown(200);
-    },
-    function() {
-        $('ul',this).stop().slideUp(200);
-    }
-);
+$("ul li").click(function() {
+    $("ul ul").slideUp();
+    $(this).find('ul').slide
+});
