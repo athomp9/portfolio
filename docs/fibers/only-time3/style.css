@@ -1,0 +1,80 @@
+@font-face {
+    font-family: arimo-bolditalic;
+    src: url(../../stylesheets/fonts/Arimo-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: shippori;
+    src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
+}
+
+@media screen and (min-width: 601px) {
+    p1.desc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   p1.desc {
+       font-size: 7x;
+    } 
+}
+
+@media screen and (min-width: 601px) {
+    h1.title {
+        font-size: 9vw;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.title {
+    font-family: arimo-bolditalic;
+    font-size: 15vw;
+    line-height: 90%;
+    position: relative;
+    display: block; 
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    padding: 0;
+    margin: 10px 100px 10px 10px;
+}
+
+.image1 {
+    display: block;
+    margin: 10px;
+    width: 98.3vw;
+}
+
+.desc {
+    font-family: shippori;
+    /* font-size: 1.2vw; */
+    /* line-height: 1.5vw; */
+    display: block;
+    padding: 3rem;
+    padding: 0;
+    margin: 50px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 1px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightsalmon;
+    text-decoration: underline;
+}
