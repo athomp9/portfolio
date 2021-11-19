@@ -83,10 +83,11 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 .title {
     font-family: arimo-bolditalic;
+    color: white;
     font-size: 15vw;
     line-height: 90%;
     position: relative;
@@ -111,5 +112,4 @@ body {
     /* line-height: 1.5vw; */
     display: block;
     padding: 3rem;
-
 }

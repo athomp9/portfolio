@@ -8,6 +8,11 @@
     src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
 }
 
+@font-face {
+    font-family: quicksand;
+    src: url(../../stylesheets/fonts/Quicksand-Regular.ttf);
+}
+
 @media screen and (min-width: 601px) {
     p1.desc {
         font-size: 20px;
@@ -26,13 +31,64 @@
     }
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: darkgray;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+    /* padding: 1vw; */
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+ul li:hover {
+    background-color: lightgray;
+}
+
+ul ul {
+    position: absolute;
+    min-width: 200px;
+    background-color: lightsalmon;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    background: darkgray;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+#work-menu {
+    font-size: 2vh;
+    font-family: quicksand;
+}
+
+h1.title {
+    z-index: -10;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: lightgray;
 }
+
 .title {
     font-family: arimo-bolditalic;
+    color: white;
     font-size: 15vw;
     line-height: 90%;
     position: relative;
