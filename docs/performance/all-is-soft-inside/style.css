@@ -35,7 +35,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: darkgray;
+    background-color: black;
     position: relative;
 }
 
@@ -52,7 +52,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: gray;
+    background-color: rgb(27, 27, 22);
 }
 
 ul ul {
@@ -64,7 +64,7 @@ ul ul {
 
 ul ul li {
     display: block;
-    background-color: lightgray;
+    background-color: rgb(27, 27, 27);
 }
 
 ul li:hover ul {
@@ -83,7 +83,7 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: black;
 }
 .title {
     font-family: arimo-bolditalic;
@@ -106,7 +106,7 @@ body {
 
 .desc {
     font-family: shippori;
-    color: white;
+    color: lightgray;
     /* font-size: 1.2vw; */
     /* line-height: 1.5vw; */
     display: block;
