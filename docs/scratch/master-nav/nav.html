@@ -5,15 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../../lib/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
-    <link rel="stylesheet" href="../../lib/lightbox2-2.11.3/dist/css/lightbox.css">
-    <link rel="stylesheet" href="style.css">
-    <title>ALL IS SOFT INSIDE</title>
+    <title>Master Nav</title>
+
+    <style>
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            background-color: black;
+            position: relative;
+        }
+
+        ul li {
+            display: inline-block;
+            /* padding: 1vw; */
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+        ul li:hover {
+            background-color: gray;
+        }
+
+        ul ul {
+            position: absolute;
+            min-width: 200px;
+            background-color: black;
+            display: none;
+        }
+
+        ul ul li {
+            display: block;
+            background: gray;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        #work-menu {
+            font-size: 1.8vh;
+            font-family: quicksand;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav>
+            <div>
+
+            </div>
+
             <ul id="work-menu">
                 <li><a href="https://athomp9.github.io/portfolio/home/">ArthurArthur</a></li>
                 <li><a href="#">Work <i class="fa fa"></i></a>
@@ -48,23 +96,6 @@
             </ul>
         </nav>
     </header>
-    <h2 class="title">PRETEND WORLD</h2>
-    <div class="video">
-        <iframe src="https://youtube.com/embed/pjshUXSdhR4?autoplay=1&mute=1" frameborder="0" allowfullscreen>
-        </iframe>
-    </div>
-    <div class="p">
-        <p1 class="desc">When I am on the train late at night, I can feel myself becoming a part of the train. In those
-            moments, there is no distinction between myself and the train. Pretend World is a soundscape of this
-            concept—the swift motion, the tug back and forth, the lack of control—an auditory ascension and descension.
-        </p1>
-        <p1 class="desc">I created elements of this ensemble with an electronic modular synth, and others found sounds.
-            The video was produced using a visualizer that reacts to the audio. Soundspectrum developed this technology.
-        </p1>
-        <p1 class="desc">This piece was featured in the My Dreams These Days exhibition—a 12-hour showcase of student
-            artist work streamed consecutively online as well as projected live at physical locations in the Chicago
-            area.</p1>
-        <p1 class="desc">2021, audio and video performance, 13:00, recorded and found sounds</p1>
 </body>
 
 </html>

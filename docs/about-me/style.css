@@ -1,33 +1,44 @@
 @font-face {
     font-family: arimo-bolditalic;
-    src: url(../../stylesheets/fonts/Arimo-BoldItalic.ttf);
+    src: url(../stylesheets/fonts/Arimo-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: arimo-bold;
+    src: url(../stylesheets/fonts/Arimo-MediumItalic.ttf);
 }
 
 @font-face {
     font-family: shippori;
-    src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
+    src: url(../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
 }
 
 @font-face {
     font-family: quicksand;
-    src: url(../../stylesheets/fonts/Quicksand-Regular.ttf);
+    src: url(../stylesheets/fonts/Quicksand-Regular.ttf);
 }
 
 @media screen and (min-width: 601px) {
     p1.desc {
-        font-size: 20px;
+        font-size: 3rem;
     }
 }
 
 @media screen and (max-width: 600px) {
    p1.desc {
-       font-size: 7x;
+       font-size: 1.5rem;
     } 
 }
 
 @media screen and (min-width: 601px) {
     h2.title {
         font-size: 9vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2.title {
+        font-size: 13vw;
     }
 }
 
@@ -52,19 +63,19 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: rgb(27, 27, 22);
+    background-color: white;
 }
 
 ul ul {
     position: absolute;
     min-width: 200px;
-    background-color: lightsalmon;
+    background-color: black;
     display: none;
 }
 
 ul ul li {
     display: block;
-    background-color: rgb(27, 27, 27);
+    background: white;
 }
 
 ul li:hover ul {
@@ -83,13 +94,13 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: black;
     font-size: 15vw;
-    line-height: 90%;
+    line-height: 100%;
     position: relative;
     display: block; 
     position: relative;
@@ -105,39 +116,18 @@ body {
 }
 
 .desc {
-    font-family: shippori;
-    color: lightgray;
+    font-family: arimo-bold;
     /* font-size: 1.2vw; */
     /* line-height: 1.5vw; */
     display: block;
     padding: 20px;
+    font-size: 10rem;
+    text-align: right;
+}
+a:link {
+    color: gray;
 }
 
-.row1 {
-    display: flex;
-}
-  
-.column1 {
-    flex: 50%;
-    padding: 1px;
-}
-
-.row2 {
-    display: flex;
-}
-  
-.column2 {
-    flex: 50%;
-    padding: 1px;
-}
-
-iframe {
-    width: 100vw;
-    height: 100vh;
-}
-
-
-img {
-    width: 40vw;
-
+a:visited {
+    color: gray;
 }

@@ -31,11 +31,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    h2.title {
+        font-size: 13vw;
+    }
+}
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
+    background-color: white;
     position: relative;
 }
 
@@ -45,26 +51,26 @@ ul li {
 }
 
 ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 ul li:hover {
-    background-color: rgb(27, 27, 22);
+    background-color: lighwhitetgray;
 }
 
 ul ul {
     position: absolute;
     min-width: 200px;
-    background-color: lightsalmon;
+    background-color: black;
     display: none;
 }
 
 ul ul li {
     display: block;
-    background-color: rgb(27, 27, 27);
+    background: white;
 }
 
 ul li:hover ul {
@@ -83,13 +89,13 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: black;
     font-size: 15vw;
-    line-height: 90%;
+    line-height: 100%;
     position: relative;
     display: block; 
     position: relative;
@@ -106,38 +112,8 @@ body {
 
 .desc {
     font-family: shippori;
-    color: lightgray;
     /* font-size: 1.2vw; */
     /* line-height: 1.5vw; */
     display: block;
     padding: 20px;
-}
-
-.row1 {
-    display: flex;
-}
-  
-.column1 {
-    flex: 50%;
-    padding: 1px;
-}
-
-.row2 {
-    display: flex;
-}
-  
-.column2 {
-    flex: 50%;
-    padding: 1px;
-}
-
-iframe {
-    width: 100vw;
-    height: 100vh;
-}
-
-
-img {
-    width: 40vw;
-
 }
