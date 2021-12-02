@@ -74,6 +74,8 @@ ul li:hover ul {
 #work-menu {
     font-size: 1.8vh;
     font-family: quicksand;
+    position: relative;
+    z-index: 1;
 }
 
 h2.title {
