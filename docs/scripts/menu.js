@@ -19,6 +19,10 @@ let mainMenu = `
             <li><a href="${prefix}/performance/all-is-soft-inside">ALL IS SOFT
                     INSIDE</a></li>
             <li><a href="${prefix}/performance/push-i/">puSH I</a></li>
+            <li><a href="${prefix}/performance/push-ii/">puSH II</a></li>
+            <li><a href="${prefix}/performance/push-iii/">puSH III</a></li>
+            <li><a href="${prefix}/performance/push-iv/">puSH IV</a></li>
+            <li><a href="${prefix}/performance/push-v/">puSH V</a></li>
             <li><a href="${prefix}/audio-works/pretend-world">PRETEND WORLD</a>
             </li>
             <li><a href="${prefix}/print/pretending">I AM JUST PRETENDING;
