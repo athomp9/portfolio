@@ -99,11 +99,6 @@ body {
     margin: 20px 60px 20px 20px;
 }
 
-.image1 {
-    display: block;
-    width: 100vw;
-}
-
 .desc {
     font-family: arimo-med-italic;
     color: lightgray;
@@ -113,20 +108,17 @@ body {
     max-width: 70ch;
 }
 
-.row1 {
-    display: flex;
+.gallery {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: .4em;
+    padding: 1em 0rem 1rem 0rem;
 }
   
-.column1 {
-    flex: 50%;
-    padding: 1px;
-}
-
-.row2 {
-    display: flex;
-}
-  
-.column2 {
-    flex: 50%;
-    padding: 1px;
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
