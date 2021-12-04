@@ -1,21 +1,17 @@
+
 @font-face {
     font-family: arimo-bolditalic;
     src: url(../stylesheets/fonts/Arimo-BoldItalic.ttf);
 }
 
 @font-face {
-    font-family: arimo-bold;
+    font-family: arimo-med-italic;
     src: url(../stylesheets/fonts/Arimo-MediumItalic.ttf);
 }
 
 @font-face {
-    font-family: shippori;
-    src: url(../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
-}
-
-@font-face {
-    font-family: quicksand;
-    src: url(../stylesheets/fonts/Quicksand-Regular.ttf);
+    font-family: arimo-reg;
+    src: url(../stylesheets/fonts/Arimo-Regular.ttf);
 }
 
 @media screen and (min-width: 601px) {
@@ -46,7 +42,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
+    background-color: white;
     position: relative;
 }
 
@@ -69,7 +65,7 @@ ul li:hover {
 ul ul {
     position: absolute;
     min-width: 200px;
-    background-color: black;
+    background-color: darkgray;
     display: none;
 }
 
@@ -84,7 +80,9 @@ ul li:hover ul {
 
 #work-menu {
     font-size: 1.8vh;
-    font-family: quicksand;
+    font-family: arimo-reg;
+    position: relative;
+    z-index: 1;
 }
 
 h2.title {
@@ -116,18 +114,29 @@ body {
 }
 
 .desc {
-    font-family: arimo-bold;
-    /* font-size: 1.2vw; */
-    /* line-height: 1.5vw; */
+    font-family: arimo-med-italic;
     display: block;
-    padding: 20px;
-    font-size: 10rem;
-    text-align: right;
+    text-align: left;
+    margin: 1em 0;
+    margin-left: 20px;
+    max-width: 50ch;
 }
+
 a:link {
     color: gray;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: black;
 }
 
 a:visited {
     color: gray;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: black;
+    text-decoration: none;
 }

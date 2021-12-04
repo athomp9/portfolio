@@ -4,23 +4,23 @@
 }
 
 @font-face {
-    font-family: shippori;
-    src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
+    font-family: arimo-med-italic;
+    src: url(../../stylesheets/fonts/Arimo-MediumItalic.ttf);
 }
 
 @font-face {
-    font-family: quicksand;
-    src: url(../../stylesheets/fonts/Quicksand-Regular.ttf);
+    font-family: arimo-reg;
+    src: url(../../stylesheets/fonts/Arimo-Regular.ttf);
 }
 
 @media screen and (min-width: 601px) {
-    p1.desc {
+    p.desc {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 600px) {
-   p1.desc {
+   p.desc {
        font-size: 7x;
     } 
 }
@@ -73,7 +73,7 @@ ul li:hover ul {
 
 #work-menu {
     font-size: 1.8vh;
-    font-family: quicksand;
+    font-family: arimo-reg;
     position: relative;
     z-index: 1;
 }
@@ -107,39 +107,12 @@ body {
 }
 
 .desc {
-    font-family: shippori;
+    font-family: arimo-med-italic;
     color: lightgray;
-    /* font-size: 1.2vw; */
-    /* line-height: 1.5vw; */
     display: block;
-    padding: 20px;
+    margin: 1em 0;
+    margin-left: 1em;
+    max-width: 70ch;
 }
 
-.row1 {
-    display: flex;
-}
-  
-.column1 {
-    flex: 50%;
-    padding: 1px;
-}
-
-.row2 {
-    display: flex;
-}
-  
-.column2 {
-    flex: 50%;
-    padding: 1px;
-}
-
-iframe {
-    width: 100vw;
-    height: 100vh;
-}
-
-
-img {
-    width: 40vw;
-
-}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}

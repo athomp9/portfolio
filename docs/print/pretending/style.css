@@ -4,24 +4,24 @@
 }
 
 @font-face {
-    font-family: shippori;
-    src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
+    font-family: arimo-med-italic;
+    src: url(../../stylesheets/fonts/Arimo-MediumItalic.ttf);
 }
 
 @font-face {
-    font-family: quicksand;
-    src: url(../../stylesheets/fonts/Quicksand-Regular.ttf);
+    font-family: arimo-reg;
+    src: url(../../stylesheets/fonts/Arimo-Regular.ttf);
 }
 
 @media screen and (min-width: 601px) {
-    .p1 desc {
-        font-size: 20px;
+    p.desc {
+        font-size: 1.8rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-   .p1 desc {
-       font-size: 7px;
+   p.desc {
+       font-size: 1rem;
     } 
 }
 
@@ -78,8 +78,8 @@ ul li:hover ul {
 }
 
 #work-menu {
-    font-size: 1.8vh;
-    font-family: quicksand;
+    font-size: 2vh;
+    font-family: arimo-reg;
 }
 
 h2.title {
@@ -114,7 +114,7 @@ body {
 
 @media only screen and (min-width: 1100px) {
     .image1 {
-      width: 50vw;
+      width: 60vw;
     }
   }
 
@@ -125,10 +125,8 @@ body {
 }
 
 .desc {
-    font-family: shippori;
+    font-family: arimo-med-italic;
     color: white;
-    /* font-size: 1.2vw; */
-    /* line-height: 1.5vw; */
     display: block;
     padding: 20px;
 }

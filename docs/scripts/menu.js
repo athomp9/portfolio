@@ -11,17 +11,17 @@ let prefix = setPrefix(REPO_NAME, ROOT_IS_DOCS);
 
 let mainMenu = `
     <ul id="work-menu">
-    <li><a href="https://athomp9.github.io/portfolio/home/">ArthurArthur</a></li>
-    <li><a href="#">Work <i class="fa fa"></i></a>
+    <li><a href="${prefix}/home/">ArthurArthur</a></li>
+    <li><a href="#">Work</a>
         <ul>
             <li><a href="${prefix}/performance/sophie/">SOPHIE</a></li>
-            <li><a href="${prefix}/reality/">REALITY</a></li>
+            <li><a href="${prefix}/performance/reality/">REALITY</a></li>
             <li><a href="${prefix}/performance/all-is-soft-inside">ALL IS SOFT
                     INSIDE</a></li>
             <li><a href="${prefix}/audio-works/pretend-world">PRETEND WORLD</a>
             </li>
             <li><a href="${prefix}/print/pretending">I AM JUST PRETENDING;
-                    ANYFORM; ANYSHAPE; ANYTHING.</a></li>
+                    ANYFORM; ANYSHAPE; ANYTHING</a></li>
             <li><a href="${prefix}/fibers/only-time1/">Only Time Makes It Human
                     I</a></li>
             <li><a href="${prefix}/fibers/only-time2/">Only Time Makes It Human
@@ -33,9 +33,9 @@ let mainMenu = `
     <li> <a href="#">Process</a>
         <ul>
             <li><a href="${prefix}/process/plastic-rope/">Plastic Rope</a></li>
-            <li><a href="${prefix}/process/tap-man/">Tapestry Manipulations</a>
+            <li><a href="${prefix}/process/tap-man/">Digital Tapestry Manipulations</a>
             </li>
-            <li><a href="${prefix}/process/wear-tap">Tapestry as Garment</a></li>
+            <li><a href="${prefix}/process/wear-tap">Plastic as Garment: Test 1: Tapestry</a></li>
             <li><a href="#">SOPHIE (process)</a></li>
             <li><a href="#">Reality (process)</a></li>
         </ul>

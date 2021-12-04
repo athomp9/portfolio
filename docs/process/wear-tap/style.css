@@ -4,24 +4,24 @@
 }
 
 @font-face {
-    font-family: shippori;
-    src: url(../../stylesheets/fonts/ShipporiAntiqueB1-Regular.ttf);
+    font-family: arimo-med-italic;
+    src: url(../../stylesheets/fonts/Arimo-MediumItalic.ttf);
 }
 
 @font-face {
-    font-family: quicksand;
-    src: url(../../stylesheets/fonts/Quicksand-Regular.ttf);
+    font-family: arimo-reg;
+    src: url(../../stylesheets/fonts/Arimo-Regular.ttf);
 }
 
 @media screen and (min-width: 601px) {
-    p1.desc {
-        font-size: 20px;
+    p.desc {
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-   p1.desc {
-       font-size: 7x;
+   p.desc {
+       font-size: 1rem;
     } 
 }
 
@@ -78,8 +78,8 @@ ul li:hover ul {
 }
 
 #work-menu {
-    font-size: 1.8vh;
-    font-family: quicksand;
+    font-size: 2vh;
+    font-family: arimo-reg;
 }
 
 h2.title {
@@ -106,18 +106,19 @@ body {
 }
 
 .desc {
-    font-family: shippori;
-    /* font-size: 1.2vw; */
-    /* line-height: 1.5vw; */
+    font-family: arimo-med-italic;
+    line-height: 1.5em;
     display: block;
-    padding: 20px;
+    margin: 1em 0;
+    margin-left: 1em;
+    max-width: 70ch;
 }
 
 .gallery {
     width: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: .4em;
     padding: 1em 0rem 1rem 0rem;
   }
@@ -127,3 +128,22 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
+  a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: black;
+    text-decoration: none;
+}
