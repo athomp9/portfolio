@@ -15,13 +15,13 @@
 
 @media screen and (min-width: 601px) {
     p.desc {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 600px) {
    p.desc {
-       font-size: 7x;
+       font-size: 1rem;
     } 
 }
 
@@ -31,11 +31,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    h2.title {
+        font-size: 13vw;
+    }
+}
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
+    background-color: white;
     position: relative;
 }
 
@@ -45,26 +51,26 @@ ul li {
 }
 
 ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 ul li:hover {
-    background-color: darkgray;
+    background-color: lighwhitetgray;
 }
 
 ul ul {
     position: absolute;
     min-width: 200px;
-    background-color: lightsalmon;
+    background-color: black;
     display: none;
 }
 
 ul ul li {
     display: block;
-    background-color: rgb(27, 27, 27);
+    background: white;
 }
 
 ul li:hover ul {
@@ -72,10 +78,8 @@ ul li:hover ul {
 }
 
 #work-menu {
-    font-size: 1.8vh;
+    font-size: 2vh;
     font-family: arimo-reg;
-    position: relative;
-    z-index: 1;
 }
 
 h2.title {
@@ -85,13 +89,13 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: black;
     font-size: 15vw;
-    line-height: 90%;
+    line-height: 100%;
     position: relative;
     display: block; 
     position: relative;
@@ -103,11 +107,43 @@ body {
 
 .desc {
     font-family: arimo-med-italic;
-    color: lightgray;
+    line-height: 1.5em;
     display: block;
     margin: 1em 0;
     margin-left: 1em;
     max-width: 70ch;
 }
 
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.gallery {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: .4em;
+    padding: 1em 0rem 1rem 0rem;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: black;
+    text-decoration: none;
+}

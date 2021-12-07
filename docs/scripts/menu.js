@@ -7,8 +7,6 @@ const REPO_NAME = `portfolio`; // 1. CHANGE THIS TO your repo name
 const ROOT_IS_DOCS = true; // 2. CHANGE THIS TO true OR false
 let prefix = setPrefix(REPO_NAME, ROOT_IS_DOCS);
 
-
-
 let mainMenu = `
     <ul id="work-menu">
     <li><a href="${prefix}/home/">ArthurArthur</a></li>
@@ -41,8 +39,8 @@ let mainMenu = `
             <li><a href="${prefix}/process/tap-man/">Digital Tapestry Manipulations</a>
             </li>
             <li><a href="${prefix}/process/wear-tap">Plastic as Garment: Test 1: Tapestry</a></li>
-            <li><a href="#">SOPHIE (process)</a></li>
-            <li><a href="#">Reality (process)</a></li>
+            <li><a href="${prefix}/process/sophie-process">Developing SOPHIE</a></li>
+            <li><a href="${prefix}/process/reality-process">The Trials of REALITY</a></li>
         </ul>
     </li>
     <li><a href="${prefix}/about-me/">About Me</a></li>

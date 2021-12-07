@@ -52,7 +52,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: rgb(27, 27, 22);
+    background-color: darkgray;
 }
 
 ul ul {
