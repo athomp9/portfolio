@@ -1,0 +1,67 @@
+
+
+
+
+.hamburger {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: block;
+    width: max-content;
+    z-index: 999;
+}
+
+.hamburger::before {
+    content: "ArthurArthur";
+    position: absolute;
+    left: 100%;
+    bottom: 9px;
+    margin: 0 .5em;
+    font-family: arimo-reg;
+    color: white;
+}
+
+.patty {
+    width: 25px;
+    height: 2px;
+    background: white;
+    margin: 8px 0;
+}
+
+#work-menu {
+    display: none;
+}
+
+#slide-menu {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: none;
+    font-family: arimo-reg;
+}
+
+#slide-menu > ul {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+}
+
+#slide-menu a {
+    color: black;
+}
+
+
+@media (min-width: 800px) {
+    .hamburger {
+        display: none;
+    }
+
+    #slide-menu {
+        display: none;
+    }
+
+    #work-menu {
+        display: block;
+    }
+}
