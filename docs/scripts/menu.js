@@ -14,8 +14,8 @@ let mainMenu = `
     <ul>
         <li><a href="${prefix}/print/pretending">I AM JUST PRETENDING;
                 ANYFORM; ANYSHAPE; ANYTHING</a></li>
-        <li><a href="${prefix}/print/dom">DOMINATION;submission</a></li>
-        <li><a href="${prefix}/print/sitting-alone">sitting alone</a></li>
+        <li><a href="${prefix}/print/dom">DOMINATION; submission</a></li>
+        <li><a href="${prefix}/print/sitting-alone">Sitting Alone Wearing Only My Earrings</a></li>
         <li><a href="${prefix}/print/mono1">Untitled #1 (monoprint)</a></li>
         <li><a href="${prefix}/print/mono2">Untitled #2 (monoprint)</a></li>
         <li><a href="${prefix}/print/mono3">Untitled #3 (monoprint)</a></li>
