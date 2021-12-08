@@ -57,9 +57,15 @@ ul li a {
     display: block;
 }
 
+ul li a:hover {
+    
+}
+
 ul li:hover {
     background-color: white;
 }
+
+
 
 ul ul {
     position: absolute;
@@ -153,10 +159,10 @@ a:link:hover.desc {
     color: white;
 }
 
-a:visited {
-    color: gray;
+/* a:visited {
+    color: green;
     text-decoration: none;
-}
+} */
 
 a:visited:hover {
     color: white;
