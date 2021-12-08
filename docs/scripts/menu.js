@@ -20,7 +20,7 @@ let mainMenu = `
         <li><a href="${prefix}/print/mono2">Untitled #2 (monoprint)</a></li>
         <li><a href="${prefix}/print/mono3">Untitled #3 (monoprint)</a></li>
         <li><a href="${prefix}/print/mono4">Untitled #4 (monoprint)</a></li>
-        <li><a href="${prefix}/print/mono1">How To Fry An Egg</a></li>
+        <li><a href="${prefix}/print/instruction">How To Fry An Egg</a></li>
     </ul>
 </li>
 <li> <a href="#">Performance</a>

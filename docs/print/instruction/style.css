@@ -1,0 +1,136 @@
+@font-face {
+    font-family: arimo-bolditalic;
+    src: url(../../stylesheets/fonts/Arimo-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: arimo-med-italic;
+    src: url(../../stylesheets/fonts/Arimo-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: arimo-reg;
+    src: url(../../stylesheets/fonts/Arimo-Regular.ttf);
+}
+
+@media screen and (min-width: 601px) {
+    p.desc {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   p.desc {
+       font-size: 1rem;
+    } 
+}
+
+@media screen and (min-width: 601px) {
+    h2.title {
+        font-size: 9vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2.title {
+        font-size: 12vw;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+    /* padding: 1vw; */
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+ul li:hover {
+    background-color: lightgray
+}
+
+ul ul {
+    position: absolute;
+    min-width: 200px;
+    background-color: lightsalmon;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    background-color: white;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+#work-menu {
+    font-size: 2vh;
+    font-family: arimo-reg;
+}
+
+h2.title {
+    z-index: -10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.title {
+    font-family: arimo-bolditalic;
+    color: black;
+    font-size: 15vw;
+    line-height: 100%;
+    position: relative;
+    display: block; 
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    padding: 0;
+    margin: 20px 60px 20px 20px;
+}
+
+.image1 {
+    width: 100vw;
+}
+
+.desc {
+    font-family: arimo-med-italic;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: white;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: white;
+    text-decoration: none;
+}

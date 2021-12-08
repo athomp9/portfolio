@@ -41,7 +41,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: darkgray;
+    background-color: white;
     position: relative;
 }
 
@@ -58,7 +58,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: lightgray
+    background-color: lightgray;
 }
 
 ul ul {
@@ -70,7 +70,7 @@ ul ul {
 
 ul ul li {
     display: block;
-    background-color: gray;
+    background-color: white;
 }
 
 ul li:hover ul {

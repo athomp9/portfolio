@@ -58,7 +58,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: lightgray
+    background-color: white;
 }
 
 ul ul {
@@ -70,7 +70,7 @@ ul ul {
 
 ul ul li {
     display: block;
-    background-color: gray;
+    background-color: lightgray;
 }
 
 ul li:hover ul {
