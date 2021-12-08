@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 601px) {
     p.desc {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 600px) {
     h2.title {
-        font-size: 12vw;
+        font-size: 13vw;
     }
 }
 
@@ -41,7 +41,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: darkgray;
+    background-color: white;
     position: relative;
 }
 
@@ -51,26 +51,26 @@ ul li {
 }
 
 ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 ul li:hover {
-    background-color: lightgray
+    background-color: lighwhitetgray;
 }
 
 ul ul {
     position: absolute;
     min-width: 200px;
-    background-color: lightsalmon;
+    background-color: black;
     display: none;
 }
 
 ul ul li {
     display: block;
-    background-color: gray;
+    background: white;
 }
 
 ul li:hover ul {
@@ -89,13 +89,13 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: white;
 }
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: black;
     font-size: 15vw;
-    line-height: 90%;
+    line-height: 100%;
     position: relative;
     display: block; 
     position: relative;
@@ -105,30 +105,13 @@ body {
     margin: 20px 60px 20px 20px;
 }
 
-
-@media only screen and (max-width: 600px) {
-    .image1 {
-      width: 100vw;
-    }
-  }
-
-@media only screen and (min-width: 1100px) {
-    .image1 {
-      width: 60vw;
-    }
-}
-
-
-
 .desc {
     font-family: arimo-med-italic;
-    color: white;
+    line-height: 1.5em;
     display: block;
-    padding: 20px;
-}
-
-a.reality-none {
-    display: none;
+    margin: 1em 0;
+    margin-left: 1em;
+    max-width: 70ch;
 }
 
 .gallery {
@@ -138,7 +121,7 @@ a.reality-none {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-gap: .4em;
     padding: 1em 0rem 1rem 0rem;
-}
+  }
   
 .gallery img {
     width: 100%;
@@ -152,7 +135,7 @@ a:link {
 }
 
 a:link:hover {
-    color: white;
+    color: black;
 }
 
 a:visited {
@@ -161,6 +144,6 @@ a:visited {
 }
 
 a:visited:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }

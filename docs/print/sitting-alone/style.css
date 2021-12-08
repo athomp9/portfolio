@@ -95,7 +95,7 @@ body {
     font-family: arimo-bolditalic;
     color: white;
     font-size: 15vw;
-    line-height: 90%;
+    line-height: 100%;
     position: relative;
     display: block; 
     position: relative;
@@ -118,8 +118,6 @@ body {
     }
 }
 
-
-
 .desc {
     font-family: arimo-med-italic;
     color: white;
@@ -135,7 +133,7 @@ a.reality-none {
     width: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
     grid-gap: .4em;
     padding: 1em 0rem 1rem 0rem;
 }
@@ -146,12 +144,12 @@ a.reality-none {
     object-fit: cover;
 }
 
-a:link {
+a:link.desc {
     color: gray;
     text-decoration: none;
 }
 
-a:link:hover {
+a:link:hover.desc {
     color: white;
 }
 
