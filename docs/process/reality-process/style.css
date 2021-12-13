@@ -1,40 +1,35 @@
-@font-face {
-    font-family: arimo-bolditalic;
-    src: url(../../stylesheets/fonts/Arimo-BoldItalic.ttf);
-}
-
-@font-face {
-    font-family: arimo-med-italic;
-    src: url(../../stylesheets/fonts/Arimo-MediumItalic.ttf);
-}
-
-@font-face {
-    font-family: arimo-reg;
-    src: url(../../stylesheets/fonts/Arimo-Regular.ttf);
-}
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
     p.desc {
-        font-size: 1.5rem;
+        font-size: 20px;
     }
-}
 
-@media screen and (max-width: 600px) {
-   p.desc {
-       font-size: 1rem;
-    } 
-}
-
-@media screen and (min-width: 601px) {
     h2.title {
         font-size: 9vw;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     h2.title {
-        font-size: 13vw;
+        margin-top: 1.4em;
+        font-size: 12vw;
     }
+}
+
+.hamburger::before {
+    content: "ArthurArthur";
+    position: absolute;
+    left: 100%;
+    bottom: 9px;
+    margin: 0 .5em;
+    font-family: arimo-reg;
+    color: black !important;
+}
+
+.patty {
+    width: 25px;
+    height: 2px;
+    background: black !important;
+    margin: 8px 0;
 }
 
 ul {

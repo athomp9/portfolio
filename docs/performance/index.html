@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../lib/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/hamburger.css">
+    <title>Performance</title>
 </head>
+
 <body>
-    
+    <header>
+        <a href="#" class="hamburger">
+                <div class="patty"></div>
+                <div class="patty"></div>
+                <div class="patty"></div>
+        </a>
+        <nav id="main-menu"></nav>
+    </header>
+    <h2 class="title">Performance</h2>
+    <p class="desc">Click the images within the gallery below to navigate through all my performances!</p>
+
+    <div class="gallery">
+        <a href="../performance/sophie/"><img src="gallery-images/sophie.jpg" alt="sophie" class="sophie"></a>
+        <a href="../performance/reality/"><img src="gallery-images/reality.jpg" alt="reality" class="reality"></a>
+        <a href="../performance/push_gallery/"><img src="gallery-images/push_cover.jpg" alt="push" class="push"></a>
+        <a href="../performance/all-is-soft-inside/"><img src="gallery-images/soft.jpg" alt="soft" class="soft"></a>
+    </div>
+
+    <script src="../scripts/menu.js"></script>
 </body>
+
 </html>

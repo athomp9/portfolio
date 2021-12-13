@@ -1,39 +1,17 @@
-@font-face {
-    font-family: arimo-bolditalic;
-    src: url(../../stylesheets/fonts/Arimo-BoldItalic.ttf);
-}
-
-@font-face {
-    font-family: arimo-med-italic;
-    src: url(../../stylesheets/fonts/Arimo-MediumItalic.ttf);
-}
-
-@font-face {
-    font-family: arimo-reg;
-    src: url(../../stylesheets/fonts/Arimo-Regular.ttf);
-}
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
     p.desc {
-        font-size: 1.8rem;
+        font-size: 20px;
+    }
+
+    h2.title {
+        font-size: 8vw;
     }
 }
 
-@media screen and (max-width: 600px) {
-   p.desc {
-       font-size: 1rem;
-    } 
-}
-
-@media screen and (min-width: 601px) {
+@media screen and (max-width: 800px) {
     h2.title {
-        font-size: 9vw;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    h2.title {
-        font-size: 12vw;
+        margin-top: 1.3em;
+        font-size: 12vw;;
     }
 }
 
@@ -95,7 +73,7 @@ body {
     font-family: arimo-bolditalic;
     color: white;
     font-size: 15vw;
-    line-height: 90%;
+    line-height: 95%;
     position: relative;
     display: block; 
     position: relative;
@@ -128,5 +106,7 @@ body {
     font-family: arimo-med-italic;
     color: white;
     display: block;
-    padding: 20px;
+    margin: 1em 0;
+    margin-left: 1em;
+    max-width: 70ch;
 }

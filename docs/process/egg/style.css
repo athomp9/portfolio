@@ -1,0 +1,144 @@
+@media screen and (min-width: 801px) {
+    p.desc {
+        font-size: 20px;
+    }
+
+    h2.title {
+        font-size: 9vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h2.title {
+        margin-top: 1.4em;
+        font-size: 12vw;
+    }
+}
+
+.hamburger::before {
+    content: "ArthurArthur";
+    position: absolute;
+    left: 100%;
+    bottom: 9px;
+    margin: 0 .5em;
+    font-family: arimo-reg;
+    color: black !important;
+}
+
+.patty {
+    width: 25px;
+    height: 2px;
+    background: black !important;
+    margin: 8px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+    /* padding: 1vw; */
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+ul li:hover {
+    background-color: lighwhitetgray;
+}
+
+ul ul {
+    position: absolute;
+    min-width: 200px;
+    background-color: black;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    background: white;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+#work-menu {
+    font-size: 2vh;
+    font-family: arimo-reg;
+}
+
+h2.title {
+    z-index: -10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.title {
+    font-family: arimo-bolditalic;
+    color: black;
+    font-size: 15vw;
+    line-height: 100%;
+    position: relative;
+    display: block; 
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    padding: 0;
+    margin: 20px 60px 20px 20px;
+}
+
+.desc {
+    font-family: arimo-med-italic;
+    line-height: 1.5em;
+    display: block;
+    margin: 1em 0;
+    margin-left: 1em;
+    max-width: 70ch;
+}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: .4em;
+    padding: 1em 0rem 1rem 0rem;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: black;
+    text-decoration: none;
+}

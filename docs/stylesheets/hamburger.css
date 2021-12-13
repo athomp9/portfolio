@@ -1,6 +1,17 @@
+@font-face {
+    font-family: arimo-bolditalic;
+    src: url(../stylesheets/fonts/Jost-ExtraBoldItalic.ttf);
+}
 
+@font-face {
+    font-family: arimo-med-italic;
+    src: url(../stylesheets/fonts/Jost-SemiBoldItalic.ttf);
+}
 
-
+@font-face {
+    font-family: arimo-reg;
+    src: url(../stylesheets/fonts/Jost-MediumItalic.ttf);
+}
 
 .hamburger {
     position: fixed;
@@ -48,7 +59,7 @@
 }
 
 #slide-menu a {
-    color: black;
+    color: gray;
 }
 
 

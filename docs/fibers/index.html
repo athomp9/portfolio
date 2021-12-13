@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../lib/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/hamburger.css">
+    <title>Fibers</title>
 </head>
+
 <body>
     <header>
-        <h1>Arthur Thompson</h1>
-        <h2>Work</h2>
-        <h2>Sketches</h2>
-        <h2>Bio</h2>
-        <h2>Contact</h2>
-        <h2>CV</h2>
-        <h1>ONLY TIME MAKES IT HUMAN</h1>
+        <a href="#" class="hamburger">
+                <div class="patty"></div>
+                <div class="patty"></div>
+                <div class="patty"></div>
+        </a>
+        <nav id="main-menu"></nav>
     </header>
-    <main>
-        <p1>description</p>
-        <p2>medium</p>
-    </main>
+    <h2 class="title">Fibers</h2>
+    <p class="desc">Click the images within the gallery below to navigate through all my fibers works!</p>
+
+    <div class="gallery">
+        <a href="../fibers/only-time1/"><img src="gallery-images/gallery_otmih_01.jpg" alt="otmih1" class="otmih1"></a>
+        <a href="../fibers/only-time2/"><img src="gallery-images/gallery_otmih_02.jpg" alt="otmih2" class="otmih2"></a>
+        <a href="../fibers/only-time1/"><img src="gallery-images/gallery_otmih_03.jpg" alt="otmih1" class="otmih1"></a>
+    </div>
+
+    <script src="../scripts/menu.js"></script>
 </body>
+
 </html>

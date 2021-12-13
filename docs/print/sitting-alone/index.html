@@ -8,17 +8,22 @@
     <script src="../../lib/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
     <link rel="stylesheet" href="../../lib/lightbox2-2.11.3/dist/css/lightbox.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../stylesheets/hamburger.css">
     <title>Sitting Alone Wearing Only My Earrings</title>
 </head>
 
 <body>
     <header>
+        <a href="#" class="hamburger">
+            <div class="patty"></div>
+            <div class="patty"></div>
+            <div class="patty"></div>
+        </a>
         <nav id="main-menu"></nav>
     </header>
     <h2 class="title">Sitting Alone Wearing Only My Earrings</h2>
-    <div class="gallery">
-        <img src="images/sitting_alone_01.jpg" alt="placeholder">
-    </div>
+    <a href="images/sitting_alone_01.jpg" data-lightbox="car1" class="reality"><img src="images/sitting_alone_01.jpg"
+            alt="page"></a>
     <div class="p">
         <p class="desc">This book is a visual narrative based on the poem “Brotherhood” by Octavio Paz. His poetry is
             featured on the edge of each page, as I believe every line heavily relates to the sequence of the pages. I
@@ -39,19 +44,37 @@
         <p class="desc">Visions in my head, feelings in my skin.</p>
         <p class="desc">Each page is hand cut.</p>
         <p class="desc">2021, book, 10.5"x 10.5", edition of 2</p>
-        <div class="gallery">
-            <img src="images/sitting_alone_02.jpg" alt="placeholder">
-            <img src="images/sitting_alone_03.jpg" alt="placeholder">
-            <img src="images/sitting_alone_04.jpg" alt="placeholder">
-            <img src="images/sitting_alone_05.jpg" alt="placeholder">
-            <img src="images/sitting_alone_06.jpg" alt="placeholder">
-            <img src="images/sitting_alone_07.jpg" alt="placeholder">
-            <img src="images/sitting_alone_08.jpg" alt="placeholder">
-            <img src="images/sitting_alone_09.jpg" alt="placeholder">
-        </div>
-        <div class="gallery">
-            <img src="images/sitting_alone_10.jpg" alt="placeholder">
-        </div>
+
+        <a href="images/sitting_alone_02.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_02.jpg" alt="page"></a>
+        <a href="images/sitting_alone_03.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_03.jpg" alt="page"></a>
+        <a href="images/sitting_alone_04.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_04.jpg" alt="page"></a>
+        <a href="images/sitting_alone_05.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_05.jpg" alt="page"></a>
+        <a href="images/sitting_alone_06.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_06.jpg" alt="page"></a>
+        <a href="images/sitting_alone_07.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_07.jpg" alt="page"></a>
+        <a href="images/sitting_alone_08.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_08.jpg" alt="page"></a>
+        <a href="images/sitting_alone_09.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_09.jpg" alt="page"></a>
+        <a href="images/sitting_alone_10.jpg" data-lightbox="car1" class="reality"><img
+                src="images/sitting_alone_10.jpg" alt="page"></a>
+
+        <script src="../../lib/lightbox2-2.11.3/dist/js/lightbox.js"></script>
+
+        <script>
+            lightbox.option({
+                'resizeDuration': 2000,
+                'wrapAround': true,
+                'imageFadeDuration': 1,
+                'alwaysShowNavOnTouchDevices': true,
+            })
+        </script>
+
         <script src="../../scripts/menu.js"></script>
 </body>
 

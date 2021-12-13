@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../lib/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/hamburger.css">
+    <title>Print & Design</title>
 </head>
+
 <body>
-    
+    <header>
+        <a href="#" class="hamburger">
+                <div class="patty"></div>
+                <div class="patty"></div>
+                <div class="patty"></div>
+        </a>
+        <nav id="main-menu"></nav>
+    </header>
+    <h2 class="title">Print & Design</h2>
+    <p class="desc">Click the images within the gallery below to navigate through all my print & design works!</p>
+
+    <div class="gallery">
+        <a href="../print/pretending/"><img src="gallery-images/pretending.jpg" alt="pretending" class="pretending"></a>
+        <a href="../print/instruction/"><img src="gallery-images/egg.jpg" alt="egg" class="egg"></a>
+        <a href="../print/mono-gallery/"><img src="gallery-images/monoprints_layered.jpg" alt="mono" class="mono"></a>
+        <a href="../print/dom/"><img src="gallery-images/dom:sub.jpg" alt="mono" class="mono"></a>
+        <a href="../print/sitting-alone/"><img src="gallery-images/sitting_alone.jpg" alt="sitting-alone" class="sitting-alone"></a>
+    </div>
+
+    <script src="../scripts/menu.js"></script>
 </body>
+
 </html>
