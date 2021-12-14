@@ -118,7 +118,7 @@ a:link {
 }
 
 a:link:hover {
-    color: white;
+    color: black;
 }
 
 a:visited {
@@ -127,6 +127,6 @@ a:visited {
 }
 
 a:visited:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }
