@@ -56,7 +56,7 @@ function setPrefix(repoName, rootIsDocs) {
     }
   } else {
     console.log("Production Site");
-    _prefix = `/${repoName}`
+    _prefix = ``
   }
 
   return _prefix;
