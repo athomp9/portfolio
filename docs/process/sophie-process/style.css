@@ -110,7 +110,7 @@ body {
 
 img {
     width: 100%;
-    max-width: 600px; /* change this to whatever */
+    max-width: 800px; /* change this to whatever */
 }
 
 /* basically just takes away the max-width on mobile devices */
@@ -122,7 +122,7 @@ img {
 }
 
 a.sophie1 img {
-    max-width: 500px;
+    max-width: 600px;
 }
 
 a.sophie-none1 {
