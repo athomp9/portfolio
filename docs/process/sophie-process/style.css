@@ -32,7 +32,6 @@
     margin: 8px 0;
 }
 
-
 ul {
     margin: 0;
     padding: 0;
@@ -54,23 +53,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: lighwhitetgray;
-}
-
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: black;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-    background: white;
-}
-
-ul li:hover ul {
-    display: block;
+    background-color: lightgray;
 }
 
 #work-menu {
@@ -110,7 +93,7 @@ body {
     max-width: 70ch;
 }
 
-.gallery {
+/* .gallery {
     width: 100%;
     display: grid;
     justify-content: center;
@@ -123,6 +106,31 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+} */
+
+img {
+    width: 100%;
+    max-width: 600px; /* change this to whatever */
+}
+
+/* basically just takes away the max-width on mobile devices */
+
+@media (max-width: 800px) {
+    img {
+        max-width: unset;
+    }
+}
+
+a.sophie1 img {
+    max-width: 500px;
+}
+
+a.sophie-none1 {
+    display: none;
+}
+
+a.sophie-none {
+    display: none;
 }
 
 a:link {

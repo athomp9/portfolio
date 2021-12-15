@@ -96,21 +96,21 @@ body {
     max-width: 70ch;
 }
 
-a:link {
+.link1 {
     color: darkgray;
     text-decoration: none;
 }
 
-a:link:hover {
-    color: black;
+.link1:link:hover {
+    color: white;
 }
 
-a:visited {
+.link1 {
     color: darkgray;
     text-decoration: none;
 }
 
-a:visited:hover {
-    color: black;
+.link1:visited:hover {
+    color: white;
     text-decoration: none;
 }
