@@ -11,11 +11,11 @@ let mainMenu = `
 <ul id="work-menu">
 <li><a href="${prefix}/">ArthurArthur</a></li>
 <li><a href="${prefix}/print/">Print & Design</a></li>
-<li> <a href="${prefix}/performance/">Performance</a></li>
-<li> <a href="${prefix}/fibers/">Fibers</a></li>
-<li> <a href="${prefix}/audio-works/">Sound</a></li>
-<li> <a href="${prefix}/fibers/plastic_gallery">Plastic</a></li>
-<li> <a href="${prefix}/process/">Process</a></li>
+<li><a href="${prefix}/performance/">Performance</a></li>
+<li><a href="${prefix}/fibers/">Fibers</a></li>
+<li><a href="${prefix}/audio-works/">Sound</a></li>
+<li><a href="${prefix}/fibers/plastic_gallery">Plastic</a></li>
+<li><a href="${prefix}/process/">Process</a></li>
 <li><a href="${prefix}/about-me/">About Me</a></li>
 </ul>
 
@@ -25,11 +25,11 @@ let mainMenu = `
 <ul>
   <li><a href="${prefix}/">ArthurArthur</a></li>
   <li><a href="${prefix}/print/">Print & Design</a></li>
-  <li> <a href="${prefix}/performance/">Performance</a></li>
-  <li> <a href="${prefix}/fibers/">Fibers</a></li>
-  <li> <a href="${prefix}/audio-works/">Sound</a></li>
-  <li> <a href="${prefix}/fibers/plastic_gallery">Plastic</a></li>
-  <li> <a href="${prefix}/process/">Process</a></li>
+  <li><a href="${prefix}/performance/">Performance</a></li>
+  <li><a href="${prefix}/fibers/">Fibers</a></li>
+  <li><a href="${prefix}/audio-works/">Sound</a></li>
+  <li><a href="${prefix}/fibers/plastic_gallery">Plastic</a></li>
+  <li><a href="${prefix}/process/">Process</a></li>
   <li><a href="${prefix}/about-me/">About Me</a></li>
 </ul>
 </nav>
