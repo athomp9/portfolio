@@ -113,14 +113,13 @@ ul li:hover ul {
     max-width: 70ch;
 }
 
-.image-desc {
-    font-family: arimo-med-italic;
-    color: white;
-    line-height: 3ch;
-    display: block;
-    margin: 0;
-    margin-left: 1em;
-    max-width: 70ch;
+a {
+    transition: transform .2s;
+}
+
+a:hover {
+    transform: scale(.95);
+    opacity: 90%;
 }
 
 .gallery {
