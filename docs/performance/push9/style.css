@@ -3,10 +3,6 @@
         font-size: 20px;
     }
 
-    p.image-desc {
-        font-size: 20px;
-    }
-
     h2.title {
         font-size: 9vw;
     }
@@ -14,22 +10,15 @@
 
 @media screen and (max-width: 800px) {
     h2.title {
-        margin-top: 1.4em;
-        font-size: 12vw;
+        margin-top: 1.1em;
     }
-}
-
-body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
@@ -39,62 +28,65 @@ ul li {
 }
 
 ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 ul li:hover {
-    background-color: lightgray;
+    background-color: rgb(27, 27, 22);
 }
 
-a {
-    transition: transform .2s;
+ul ul {
+    position: absolute;
+    min-width: 200px;
+    background-color: lightsalmon;
+    display: none;
 }
 
-a:hover {
-    transform: scale(.95);
-    opacity: 90%;
+ul ul li {
+    display: block;
+    background-color: rgb(27, 27, 27);
+}
+
+ul li:hover ul {
+    display: block;
 }
 
 #work-menu {
     font-size: 2vh;
     font-family: arimo-reg;
-    position: relative;
-    z-index: 1;
 }
 
+h2.title {
+    z-index: -10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
 .title {
     font-family: arimo-bolditalic;
     color: white;
     font-size: 15vw;
-    line-height: 100%;
+    line-height: 90%;
     position: relative;
     display: block; 
     position: relative;
     text-align: left;
     font-weight: bold;
     padding: 0;
-    margin: 20px 60px 40px 20px;
+    margin: 20px 60px 20px 20px;
 }
 
 .desc {
     font-family: arimo-med-italic;
-    color: white;
-    line-height: 3ch;
+    color: lightgray;
     display: block;
     margin: 1em 0;
-    margin-left: 1em;
-    max-width: 70ch;
-}
-
-.image-desc {
-    font-family: arimo-med-italic;
-    color: white;
-    line-height: 3ch;
-    display: block;
-    margin: 0;
     margin-left: 1em;
     max-width: 70ch;
 }
@@ -105,15 +97,30 @@ a:hover {
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: .4em;
-    padding: 1rem 0rem 2rem 0rem;
-    position: relative;
-    text-align: center;
-    color: white;
+    padding: 1em 0rem 1rem 0rem;
 }
   
 .gallery img {
     width: 100%;
     height: 100%;
-    margin: 1rem 0 1rem 0;
     object-fit: cover;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: lightgray;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: lightgray;
+    text-decoration: none;
 }
