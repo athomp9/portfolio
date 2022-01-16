@@ -13,6 +13,16 @@
     src: url(../stylesheets/fonts/Jost-MediumItalic.ttf);
 }
 
+@font-face {
+    font-family: arimo-black;
+    src: url(../stylesheets/fonts/Jost-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: arimo;
+    src: url(../stylesheets/fonts/Jost-Italic.ttf);
+}
+
 .hamburger {
     position: fixed;
     top: 20px;
@@ -26,10 +36,11 @@
     content: "ArthurArthur";
     position: absolute;
     left: 100%;
-    bottom: 9px;
+    bottom: 3px;
     margin: 0 .5em;
     font-family: arimo-reg;
     color: white;
+    font-size: 1.3rem;
 }
 
 .patty {
@@ -48,7 +59,8 @@
     z-index: 100;
     width: 100%;
     display: none;
-    font-family: arimo-reg;
+    font-family: arimo-bolditalic;
+    font-size: 2rem;
 }
 
 #slide-menu > ul {
@@ -56,12 +68,49 @@
     flex-direction: column;
     background: white;
     align-items: center;
+    padding: 20px;
 }
 
 #slide-menu a {
-    color: gray;
+    color: black;
+    padding: 3px;
 }
 
+.home a {
+    font-family: arimo-reg;
+    color: black !important;
+}
+
+.print a {
+    color: black !important;
+}
+
+.perf a {
+    font-family: arimo-reg;
+    color: black !important;
+}
+
+.fibers a {
+    color: black !important;
+}
+
+.sound a {
+    font-family: arimo-reg;
+    color: black !important;
+}
+
+.plastic a {
+    color: black !important;
+}
+
+.process a {
+    font-family: arimo-reg;
+    color: black !important;
+}
+
+.about-me a {
+    color: black !important;
+}
 
 @media (min-width: 800px) {
     .hamburger {

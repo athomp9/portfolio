@@ -61,20 +61,13 @@ ul li:hover {
     background-color: gray;
 }
 
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: lightsalmon;
-    display: none;
+a {
+    transition: transform .2s;
 }
 
-ul ul li {
-    display: block;
-    background: black;
-}
-
-ul li:hover ul {
-    display: block;
+a:hover {
+    transform: scale(.95);
+    opacity: 90%;
 }
 
 #work-menu {

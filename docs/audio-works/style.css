@@ -46,23 +46,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: lightgray;
-}
-
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: lightsalmon;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-    background: black;
-}
-
-ul li:hover ul {
-    display: block;
+    background-color: black;
 }
 
 #work-menu {
@@ -122,4 +106,13 @@ a:hover {
     height: 100%;
     margin: 1rem 0 1rem 0;
     object-fit: cover;
+}
+
+a:link:hover {
+    color: white;
+}
+
+a:visited:hover {
+    color: white;
+    text-decoration: none;
 }

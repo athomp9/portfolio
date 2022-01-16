@@ -63,7 +63,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
@@ -100,10 +100,23 @@ ul li:hover ul {
 }
 
 #work-menu {
-    font-size: 1.8vh;
+    font-size: 2vh;
     font-family: arimo-reg;
     position: relative;
     z-index: 1;
+}
+
+#slide-menu > ul {
+    /* display: flex; */
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    padding: 20px;
+}
+
+#slide-menu a {
+    color: black;
+    padding: 3px;
 }
 
 h2.title {
@@ -138,7 +151,7 @@ body {
     max-width: 50ch;
 }
 
-a:link {
+.link1 {
     color: gray;
     text-decoration: none;
 }
@@ -147,7 +160,7 @@ a:link:hover {
     color: black;
 }
 
-a:visited {
+.link1 {
     color: gray;
     text-decoration: none;
 }

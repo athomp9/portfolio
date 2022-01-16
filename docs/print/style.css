@@ -19,8 +19,25 @@
     }
 }
 
+.patty {
+    width: 25px;
+    height: 2px;
+    background: black !important;
+    margin: 8px 0;
+}
+
+.hamburger::before {
+    content: "ArthurArthur";
+    position: absolute;
+    left: 100%;
+    bottom: 9px;
+    margin: 0 .5em;
+    font-family: arimo-reg;
+    color: black !important;
+}
+
 body {
-    background-color: darkgray;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -29,7 +46,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
@@ -39,30 +56,14 @@ ul li {
 }
 
 ul li a {
-    color: darkgray;
+    color: white;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 ul li:hover {
-    background-color: lightgray;
-}
-
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: lightsalmon;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-    background: black;
-}
-
-ul li:hover ul {
-    display: block;
+    background-color: white;
 }
 
 #work-menu {
@@ -74,7 +75,7 @@ ul li:hover ul {
 
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: black;
     font-size: 15vw;
     line-height: 100%;
     position: relative;
@@ -88,7 +89,7 @@ ul li:hover ul {
 
 .desc {
     font-family: arimo-med-italic;
-    color: white;
+    color: black;
     line-height: 3ch;
     display: block;
     margin: 1em 0;
@@ -122,4 +123,13 @@ a:hover {
     height: 100%;
     margin: 1rem 0 1rem 0;
     object-fit: cover;
+}
+
+a:link:hover {
+    color: black;
+}
+
+a:visited:hover {
+    color: black;
+    text-decoration: none;
 }
