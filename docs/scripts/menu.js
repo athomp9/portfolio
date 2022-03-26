@@ -10,7 +10,7 @@ let prefix = setPrefix(REPO_NAME, ROOT_IS_DOCS);
 let mainMenu = `
 <ul id="work-menu">
 <li><a href="${prefix}/">ArthurArthur</a></li>
-<li><a href="${prefix}/print/">Print & Painting</a></li>
+<li><a href="${prefix}/print/">Print & Paint</a></li>
 <li><a href="${prefix}/performance/">Performance</a></li>
 <li><a href="${prefix}/fibers/">Fibers</a></li>
 <li><a href="${prefix}/audio-works/">Sound</a></li>
@@ -25,7 +25,7 @@ let mainMenu = `
 <nav id="slide-menu"> 
 <ul>
   <li class="home"><a href="${prefix}/">HOME</a></li>
-  <li class="print"><a href="${prefix}/print/">PRINT & PAINTING</a></li>
+  <li class="print"><a href="${prefix}/print/">PRINT & PAINT</a></li>
   <li class="perf"><a href="${prefix}/performance/">PERFORMANCE</a></li>
   <li class="fibers"><a href="${prefix}/fibers/">FIBERS</a></li>
   <li class="sound"><a href="${prefix}/audio-works/">SOUND</a></li>

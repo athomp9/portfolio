@@ -99,16 +99,21 @@
     color: black !important;
 }
 
-.plastic a {
+.ceramic a {
     color: black !important;
 }
 
-.process a {
+.plastic a {
     font-family: arimo-reg;
     color: black !important;
 }
 
+.process a {
+    color: black !important;
+}
+
 .about-me a {
+    font-family: arimo-reg;
     color: black !important;
 }
 
