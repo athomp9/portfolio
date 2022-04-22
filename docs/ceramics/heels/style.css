@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
+    background-color: gray;
     position: relative;
 }
 
@@ -35,23 +35,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: darkgray;
-}
-
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: lightsalmon;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-    background-color: rgb(27, 27, 27);
-}
-
-ul li:hover ul {
-    display: block;
+    background-color: white;
 }
 
 #work-menu {
@@ -71,11 +55,11 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: gray;
     font-size: 15vw;
     line-height: 90%;
     position: relative;
@@ -89,7 +73,7 @@ body {
 
 .desc {
     font-family: arimo-med-italic;
-    color: lightgray;
+    color: gray;
     display: block;
     margin: 1em 0;
     margin-left: 1em;
@@ -115,20 +99,20 @@ body {
 }
 
 a:link {
-    color: gray;
+    color: white;
     text-decoration: none;
 }
 
 a:link:hover {
-    color: lightgray;
+    color: gray;
 }
 
 a:visited {
-    color: gray;
+    color: white;
     text-decoration: none;
 }
 
 a:visited:hover {
-    color: lightgray;
+    color: gray;
     text-decoration: none;
 }

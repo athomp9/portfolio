@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -29,7 +29,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: darkgray;
+    background-color: black;
     position: relative;
 }
 
@@ -46,23 +46,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: lightgray;
-}
-
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: lightsalmon;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-    background: black;
-}
-
-ul li:hover ul {
-    display: block;
+    background-color: white;
 }
 
 #work-menu {
@@ -74,7 +58,7 @@ ul li:hover ul {
 
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: black;
     font-size: 15vw;
     line-height: 100%;
     position: relative;
@@ -88,7 +72,7 @@ ul li:hover ul {
 
 .desc {
     font-family: arimo-med-italic;
-    color: white;
+    color: black;
     line-height: 3ch;
     display: block;
     margin: 1em 0;
@@ -123,4 +107,23 @@ ul li:hover ul {
     height: 100%;
     margin: 1rem 0 1rem 0;
     object-fit: cover;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:link:hover {
+    color: black;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: black;
+    text-decoration: none;
 }

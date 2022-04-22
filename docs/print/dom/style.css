@@ -36,23 +36,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: lightgray;
-}
-
-ul ul {
-    position: absolute;
-    min-width: 200px;
-    background-color: lightsalmon;
-    display: none;
-}
-
-ul ul li {
-    display: block;
-    background-color: white;
-}
-
-ul li:hover ul {
-    display: block;
+    background-color: black;
 }
 
 #work-menu {
@@ -67,7 +51,7 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: black;
 }
 .title {
     font-family: arimo-bolditalic;
@@ -125,7 +109,7 @@ a.reality-none {
 }
 
 a:link {
-    color: gray;
+    color: black;
     text-decoration: none;
 }
 
@@ -134,11 +118,16 @@ a:link:hover {
 }
 
 a:visited {
-    color: gray;
+    color: black;
     text-decoration: none;
 }
 
 a:visited:hover {
     color: white;
+    text-decoration: none;
+}
+
+a.process {
+    color: gray;
     text-decoration: none;
 }

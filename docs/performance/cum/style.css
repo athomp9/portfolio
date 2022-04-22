@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
+    background-color: darkgray;
     position: relative;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 .title {
     font-family: arimo-bolditalic;
-    color: black;
+    color: darkgray;
     font-size: 15vw;
     line-height: 90%;
     position: relative;
@@ -135,15 +135,10 @@ a:hover {
 }
 
 a:link:hover {
-    color: black;
-}
+    color: darkgray;
+}  
 
 a:visited:hover {
-    color: black;
+    color: darkgray;
     text-decoration: none;
-}
-
-footer {
-    padding: 50px;
-    background-color: white;
 }
