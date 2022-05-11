@@ -151,6 +151,16 @@ body {
     max-width: 50ch;
 }
 
+.copyright {
+    font-family: arimo-med-italic;
+    font-size: 1.5rem;
+    display: block;
+    text-align: left;
+    margin: 1em 0;
+    margin-left: 20px;
+    max-width: 50ch;
+}
+
 .link1 {
     color: gray;
     text-decoration: none;
