@@ -122,6 +122,17 @@ a:link {
 
 a:link:hover {
     color: tomato;
+    text-decoration: none;
+}
+
+a#syd {
+    color: tomato;
+    text-decoration: none;
+}
+
+a#syd:hover {
+    color: red;
+    text-decoration: none;
 }
 
 a:visited {
