@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
+    background-color: palevioletred;
     position: relative;
 }
 
@@ -35,7 +35,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: rgb(27, 27, 22);
+    background-color: lightpink;
 }
 
 a {
@@ -59,11 +59,11 @@ h2.title {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
 }
 .title {
     font-family: arimo-bolditalic;
-    color: white;
+    color: palevioletred;
     font-size: 15vw;
     line-height: 90%;
     position: relative;
@@ -77,7 +77,7 @@ body {
 
 .desc {
     font-family: arimo-med-italic;
-    color: lightgray;
+    color: palevioletred;
     display: block;
     margin: 1em 0;
     margin-left: 1em;
