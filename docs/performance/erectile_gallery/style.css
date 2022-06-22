@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #132020;
     margin: 0;
     padding: 0;
 }
@@ -39,14 +39,14 @@ ul li {
 }
 
 ul li a {
-    color: black;
+    color: #132020;
     text-decoration: none;
     padding: 10px;
     display: block;
 }
 
 ul li:hover {
-    background-color: lightgray;
+    background-color: #132020;
 }
 
 a {
@@ -54,6 +54,7 @@ a {
 }
 
 a:hover {
+    color: white;
     transform: scale(.95);
     opacity: 90%;
 }
