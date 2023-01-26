@@ -9,7 +9,7 @@ let prefix = setPrefix(REPO_NAME, ROOT_IS_DOCS);
 
 let mainMenu = `
 <ul id="work-menu">
-<li><a href="${prefix}/">ArthurArthur</a></li>
+<li><a href="${prefix}/">Arthur Arthur</a></li>
 <li><a href="${prefix}/print/">Print & Paint</a></li>
 <li><a href="${prefix}/performance/">Performance</a></li>
 <li><a href="${prefix}/fibers/">Fibers</a></li>

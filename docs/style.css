@@ -15,7 +15,7 @@
 }
 
 .hamburger::before {
-    content: "ArthurArthur";
+    content: "Arthur Arthur";
     position: absolute;
     left: 100%;
     bottom: 9px;
